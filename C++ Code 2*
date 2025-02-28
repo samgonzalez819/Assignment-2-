@@ -2,6 +2,7 @@
 // Name: Samantha Gonzalez
 // Date: 02/27/2025
 #include <iostream>
+#include "ConsoleApplication19.h"
 using namespace std;
 
 //Define Node Structure
@@ -18,7 +19,7 @@ struct Node {
 class DoublyLinkedList {
 public:
     //Pointer of the head node on the list
-    Node* head; 
+    Node* head;
 
     //Constructor for list set up
     DoublyLinkedList() : head(nullptr) {}
